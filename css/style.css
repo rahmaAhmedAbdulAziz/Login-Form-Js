@@ -1,0 +1,58 @@
+body
+{
+    background-image: url('/image/360_F_391461057_5P0BOWl4lY442Zoo9rzEeJU0S2c1WDZR.jpg') ;
+background-repeat:round;
+/* display: flex;
+align-items: center;
+justify-content: center; */
+height: 75vh;
+}
+.login ,.signUp{
+   display: flex;
+align-items: center;
+justify-content: center; 
+height: 100vh;
+}
+p a:hover
+{
+    text-decoration: underline !important;
+}
+.form-container
+{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1)
+}
+.text{
+    color: aliceblue;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-weight: 500;
+font-size: 40px;
+}
+input::placeholder
+{
+    font-size:20px;
+    color:  rgb(182, 182, 182) !important;
+}
+.navbar
+{
+    
+    background-color: #24353fbd !important;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.group {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+#usernameAlert, #userEmailAlert, #userPasswordAlert
+{
+    font-size: .8rem;
+}
+.user{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* .welecom{
+    background-image: url('/image/0000014429_white-fireworks-vector-png-transparent-background_800.jpeg');
+  
+
+
+} */
+
